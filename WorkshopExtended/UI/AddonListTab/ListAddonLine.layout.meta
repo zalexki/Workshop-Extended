@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0FFE02F22D314775}UI/AddonListTab/ListAddonsSubMenu.layout"
+ Name "{E363BEA40C56718E}UI/AddonListTab/ListAddonLine.layout"
  Configurations {
   LayoutResourceClass PC {
   }
