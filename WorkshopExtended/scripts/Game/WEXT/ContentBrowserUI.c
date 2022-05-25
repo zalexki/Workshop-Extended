@@ -10,11 +10,11 @@ modded class ContentBrowserUI
 		// Should figure out later what's happening here.
 		m_TabViewComponent.AddTab(
 			"{5242DD0FBCE21DF5}UI/AddonListTab/ListAddonsMenu.layout",
-			"All List",
+			"All (List)",
 			enabled: true);
 		m_TabViewComponent.AddTab(
 			"{0FFE02F22D314775}UI/AddonListTab/ListAddonsSubMenu.layout",
-			"Downloaded List",
+			"Downloaded (List)",
 			enabled: true);
 	}
 }

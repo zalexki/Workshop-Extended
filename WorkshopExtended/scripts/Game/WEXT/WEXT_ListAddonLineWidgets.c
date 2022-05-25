@@ -12,6 +12,7 @@ class WEXT_ListAddonLineWidgets
 	SCR_ModularButtonComponent m_ActionButtonComponent;
 
 	TextWidget m_NameText;
+	SCR_ModularButtonComponent m_NameTextComponent;
 
 	TextWidget m_StateText;
 
@@ -29,6 +30,7 @@ class WEXT_ListAddonLineWidgets
 		m_ActionButtonComponent = SCR_ModularButtonComponent.Cast(m_ActionButton.FindHandler(SCR_ModularButtonComponent));
 
 		m_NameText = TextWidget.Cast(root.FindWidget("LineHeight.Overlay.LineContent.LineElements.m_NameText"));
+		m_NameTextComponent = SCR_ModularButtonComponent.Cast(m_NameText.FindHandler(SCR_ModularButtonComponent));
 
 		m_StateText = TextWidget.Cast(root.FindWidget("LineHeight.Overlay.LineContent.LineElements.m_StateText"));
 

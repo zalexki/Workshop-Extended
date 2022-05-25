@@ -188,6 +188,7 @@ class WEXT_ListAddonLineComponent : ScriptedWidgetComponent
 			
 			widgets.m_DeleteButtonComponent.m_OnClicked.Insert(OnDeleteButton);
 			widgets.m_OpenDetailsButtonComponent.m_OnClicked.Insert(OnOpenDetailsButton);
+			widgets.m_NameTextComponent.m_OnClicked.Insert(OnOpenDetailsButton);
 			widgets.m_ActionButtonComponent.m_OnClicked.Insert(OnActionButton);
 			
 			//GetGame().GetCallqueue().CallLater(OnEachFrame, 1, true);

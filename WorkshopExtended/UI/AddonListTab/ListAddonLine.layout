@@ -108,6 +108,27 @@ ButtonWidgetClass {
             }
            }
            {
+            SizeLayoutWidgetClass "{5964DDA49DABBD48}" {
+             Prefab "{5964DDA49DABBD48}"
+             {
+              OverlayWidgetClass "{5708EA930B28E8E5}" {
+               Prefab "{5708EA930B28E8E5}"
+               {
+                HorizontalLayoutWidgetClass "{5708EA92AC0FE392}" {
+                 Prefab "{5708EA92AC0FE392}"
+                 {
+                  ImageWidgetClass "{5708EA929121336C}" {
+                   Prefab "{5708EA929121336C}"
+                   Texture "{1F0A6C9C19E131C6}UI/Textures/Icons/icons_wrapperUI.imageset"
+                   Image "download"
+                   Size 32 32
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
            }
           }
           TextWidgetClass "{596F2D2CB0E354CB}" {
@@ -117,12 +138,15 @@ ButtonWidgetClass {
             SizeMode Fill
             FillWeight 0.4
            }
-           Text "Name"
-           "Font Size" 20
-           "Min Font Size" 16
-           "Vertical Alignment" Center
-           FontProperties FontProperties "{56A6DDC06A459F96}" {
-            Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt"
+           Color 0 0 0 1
+           components {
+            SCR_ModularButtonComponent "{5971036EF2A021D6}" {
+             m_aEffects {
+              SCR_ButtonEffectText "{5971036EC0469E55}" {
+               m_eEvents STATE_HOVERED
+              }
+             }
+            }
            }
           }
           TextWidgetClass "{596F2D2CB0E354CD}" {
@@ -193,6 +217,12 @@ ButtonWidgetClass {
                   OffsetBottom -30
                  }
                  {
+                  ImageWidgetClass "{5708B18BC0E07910}" {
+                   Prefab "{5708B18BC0E07910}"
+                   Texture "{2EFEA2AF1F38E7F0}UI/Textures/Icons/icons_wrapperUI-64.imageset"
+                   Image "trash"
+                   Size 64 64
+                  }
                  }
                 }
                }
